@@ -4,6 +4,7 @@ body {
     background-color: #f3f3f3;
     margin: 0;
     padding: 0;
+    color: #333; /* Cor padrão do texto */
 }
 
 header {
@@ -33,6 +34,7 @@ section {
     margin: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
+    color: #333; /* Cor padrão do texto */
 }
 
 /* Estilos específicos para a seção "Nossos Serviços" */
@@ -62,4 +64,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Defina o novo verde como a cor padrão do site */
+body {
+    background-color: #186f3e; /* Verde escuro personalizado */
+    color: #fff; /* Cor do texto no fundo escuro */
 }
